@@ -100,3 +100,13 @@
 .g-content {
   --highlight-color: var(--waypoint);
 }
+
+.g-vertical-text-block-list .list li .wrapper .body-text a {
+  color: var(--waypoint);
+  &:hover {
+    color: var(--waypoint);
+    &::after {
+      background-color: var(--waypoint);
+    }
+  }
+}
